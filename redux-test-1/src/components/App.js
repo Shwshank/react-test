@@ -1,11 +1,15 @@
 import React from 'react';
 
+import SetName from './SetName';
+import GetName from './GetName';
+
 class App extends React.Component {
 
   render = () => {
     return(
       <div>
-        App
+        <SetName/>
+        <GetName/>
       </div>
     );
   }
